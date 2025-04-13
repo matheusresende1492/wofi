@@ -1,0 +1,85 @@
+/* Global styles */
+* {
+  font-family: 'CaskaydiaCove Nerd Font', monospace;
+  font-size: 18px;
+}
+
+/* Window */
+window {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid #77FAF9;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8); /* transparent dark */
+}
+
+/* Inner Box */
+#inner-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Outer Box */
+#outer-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Scroll */
+#scroll {
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Input */
+#input {
+  margin: 5px 20px;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  color: #cdd6f4; /* light text */
+  background-color: rgba(55, 59, 65, 0.5); /* slightly darker input background */
+}
+
+/* Text */
+#text {
+  margin: 5px;
+  border: none;
+  color: #cdd6f4; /* text color */
+}
+
+/* Entry */
+#entry {
+  background-color: transparent;
+  border: none;
+}
+
+#entry arrow {
+  border: none;
+  color: #40E0D0; /* turquoise arrow color */
+}
+
+/* Selected Entry */
+#entry:selected {
+  background-color: rgba(64, 224, 208, 0.2); /* light turquoise highlight */
+  border-radius: 6px;
+  border: 1px solid #40E0D0;
+}
+
+#entry:selected #text {
+  color: #89dceb; /* soft blue text */
+}
+
+#entry:drop(active) {
+  background-color: #40E0D0 !important;
+}
+
+/* Define turquoise for easier reference */
+@define-color turquoise #40E0D0;
+
